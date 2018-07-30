@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,700i,900,900i');
+a{
+    text-decoration: none !important;
+    color:white!important;
+}
+.sidenav li>a{
+    color:black !important;
+}
+.carousel-inner > .item >img{
+    min-height : 300px;
+    max-height : 300px;
+    width : 100%;
+}
+body{
+    background: #E9ECEF;
+}
+/*Parallex*/
+.parallax {
+    /* The image used */
+    background-image: url("https://i.pinimg.com/originals/77/aa/49/77aa49e999d897cbee4ab6fb4192dc03.jpg");
+
+    /* Set a specific height */
+    min-height: 350px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+.parallax:after{
+    position:absolute;
+    top:0;
+    content: "Hello, Welcome to Park it";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+.parallax:before{
+    position:absolute;
+    content:"";
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding:20px;
+}
+.loginbtn{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-17px;
+    z-index: 999;
+    position:relative;
+}
+
+/*Login Form*/
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .checkbox {
+    font-weight: 400;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+h5.card-header {
+    background:none;
+}
+
+/*Upper case*/
+.toUpper{
+    text-transform: uppercase !important;
+}
+
+.fixed-bottom {
+    z-index: 998 !important;
+}
+
+.sidenav-overlay {
+    background-color: rgba(0,0,0,0.7) !important;
+    z-index: 998 !important;
+}
+.sidenav{
+    z-index: 1024!important;
+}
+button.waves-effect.waves-light.btn-large {
+    width: 100% !important;
+}
+button.btn.btn-success.logoutm {
+    width: 100%;
+}
+
+.header-fixed {
+    width: 100% 
+}
+
+.page-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:100%;
+}
+table{
+    margin-bottom: 80px !important;
+    overflow:scroll !important;
+
+}
+input[type=checkbox]:checked{
+    background:red;
+}
+.colscol{
+    border:1px solid black;
+    margin:1px;
+}
+tr:hover {
+    background: aliceblue !important;
+}
+
+select#inputState {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #9E9E9E;
+}
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2.9rem + 2px) !important;
+}
+
+.cs{
+    background:#EE6E73 !important;
+    cursor: default;
+}
+input.seats {
+    pointer-events:auto !important;
+    position:relative !important;
+    opacity:1 !important;
+}
+input[type="checkbox"]{
+    width: 50px; /*Desired width*/
+    height: 30px; /*Desired height*/
+    margin-right:18px;
+}
+input[type=checkbox]:before {
+    content: attr(data-content);
+    width: 50px;
+    height: 30px;
+    line-height:30px;
+    display: inline-block;
+    vertical-align:middle;
+    text-align: center;
+    box-shadow: inset 1px 1px 1px 1px  rgba(0,0,0,0.71);
+    background-color:#A9EC5F;
+    color:black;
+    border-radius:6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+input[type=checkbox]:checked:before {
+    background-color:#960816;
+    font-weight: 900;
+    font-size: 12px;
+    color:white;
+}
+input[type=checkbox]:hover:before {
+    background-color:lightgray !important;
+}
+
+input[type=checkbox]:hover:checked:before {
+    background-color:black !important;
+    font-size: 15px;
+    transition: .7s all;
+}
+
+p.hero{
+    color:red;
+}
+
