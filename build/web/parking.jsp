@@ -4,7 +4,7 @@
     Author     : Dell
 --%>
 
-<%@include file="header.jsp"%>
+<%@include file="shared/header.jsp"%>
 <div class="form-row">
     <div class="form-group col-md-12 text-center">
         <label>Vehicle_no</label>
@@ -49,4 +49,4 @@
     </tbody>
 </table>
 
-<%@include file="footer.jsp"%>	
+<%@include file="shared/footer.jsp"%>	

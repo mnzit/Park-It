@@ -4,7 +4,7 @@
     Author     : Dell
 --%>
 
-<%@include file="header.jsp"%>
+<%@include file="shared/header.jsp"%>
 <p class="lead">
                 <h6>Hello! We are Park It.</h6>
                 For more detailed information about Park It and for implementation, feel free to contact us. 
@@ -17,4 +17,4 @@
                 <i class="fas fa-envelope-square mr-4"></i><span style="margin-right: 30px;">info@parkit.com</span>
                  <i class="fab fa-facebook mr-4"></i><span style="margin-right: 30px;">WeAreParkIt</span>               
             </p>
-<%@include file="footer.jsp"%>	
+<%@include file="shared/footer.jsp"%>	

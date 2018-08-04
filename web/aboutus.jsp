@@ -4,7 +4,7 @@
     Author     : Dell
 --%>
 
-<%@include file="header.jsp"%>
+<%@include file="shared/header.jsp"%>
 
      <h1 class="display-4">About Us</h1>
      <hr class="my-4">
@@ -32,4 +32,4 @@
       <b>Sustainability:</b> We are dedicated to develop sustainable future for companies where we operate.<br>
 
     </p>
-<%@include file="footer.jsp"%>	
+<%@include file="shared/footer.jsp"%>	

@@ -4,7 +4,7 @@
     Author     : Dell
 --%>
 
-<%@include file="header.jsp"%>
+<%@include file="shared/header.jsp"%>
 
 <form method="post" class="form-signin mt-5 text-center" action="Login" autocomplete="off">
     <img class="" src="img/Logo.png" alt="" width="170" height="100">
@@ -28,4 +28,4 @@
 
     <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 </form>
-<%@include file="footer.jsp"%>	
+<%@include file="shared/footer.jsp"%>	

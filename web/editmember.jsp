@@ -10,7 +10,7 @@
         response.sendRedirect("login.jsp");
     }
 %>
-<%@include file="header.jsp"%>
+<%@include file="shared/header.jsp"%>
 <h1 class="display-4 text-center demo"> Manage Members</h1>
 <c:forEach items="${memberbyid}" var="m">
     <form method="post" action="MemberController" autocomplete="off" class="mb-4">
@@ -53,4 +53,4 @@
 
     </form>
 </c:forEach>
-<%@include file="footer.jsp"%>	
+<%@include file="shared/footer.jsp"%>	

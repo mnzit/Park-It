@@ -4,7 +4,7 @@
     Author     : Dell
 --%>
 
-<%@include file="header.jsp"%>
+<%@include file="shared/header.jsp"%>
 <%  response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
     response.setHeader("Pragma", "no-cache");
     response.setHeader("Expries", "0");
@@ -87,5 +87,5 @@
         </c:otherwise>
     </c:choose>
 </div>
-<%@include file="footer.jsp"%>	
+<%@include file="shared/footer.jsp"%>	
 

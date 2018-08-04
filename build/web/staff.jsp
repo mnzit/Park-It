@@ -12,7 +12,7 @@
         response.sendRedirect("login.jsp");
     }
 %>
-<%@include file="header.jsp"%>
+<%@include file="shared/header.jsp"%>
 <c:choose>
     <c:when test="${username eq '1001746967'}">
     </c:when>
@@ -102,4 +102,4 @@
         </div>
     </div>
 </div>
-<%@include file="footer.jsp"%>	
+<%@include file="shared/footer.jsp"%>	

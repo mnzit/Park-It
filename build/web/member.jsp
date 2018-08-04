@@ -11,7 +11,7 @@
     }
 %>
 
-<%@include file="header.jsp"%>
+<%@include file="shared/header.jsp"%>
 <h1 class="display-4 text-center demo"> Manage Members</h1>
 <form method="post" action="MemberController" autocomplete="off" class="mb-4">
     <div class="form-row text-center">
@@ -97,4 +97,4 @@
         </div>
     </div>
 </div>
-<%@include file="footer.jsp"%>	
+<%@include file="shared/footer.jsp"%>	

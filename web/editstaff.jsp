@@ -10,7 +10,7 @@
         response.sendRedirect("login.jsp");
     }
 %>
-<%@include file="header.jsp"%>
+<%@include file="shared/header.jsp"%>
 <div class="jumbotron mt-4">
     <h1 class="display-4 text-center demo"></h1>
     <c:forEach items="${staffbyid}" var="s">
@@ -52,4 +52,4 @@
 </form>
 </c:forEach>
 </div>
-<%@include file="footer.jsp"%>	
+<%@include file="shared/footer.jsp"%>	

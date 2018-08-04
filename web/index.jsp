@@ -3,7 +3,7 @@
     Created on : Jul 15, 2018, 1:39:52 PM
     Author     : Dell
 --%>
-<%@include file="header.jsp"%>
+<%@include file="shared/header.jsp"%>
 </div>
     <div class="parallax display-4" style="margin-top:-100px;"></div>
      <%if (session.getAttribute("username") != null) {%>
@@ -20,4 +20,4 @@
   </div>
 </div>
 </div>
-<%@include file="footer.jsp"%>	
+<%@include file="shared/footer.jsp"%>	

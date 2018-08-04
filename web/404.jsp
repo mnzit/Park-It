@@ -4,9 +4,9 @@
     Author     : Dell
 --%>
 
-<%@include file="header.jsp"%>
+<%@include file="shared/header.jsp"%>
 <body>
     <img src="https://i.stack.imgur.com/WOlr3.png" style="height: 100%; width:100%;background: url('') no-repeat center center fixed; 
   background-size: cover;"></div>  
 </body>
-<%@include file="footer.jsp"%>	
+<%@include file="shared/footer.jsp"%>	
